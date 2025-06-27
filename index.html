@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nghị Vape House</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🧃 Nghị Vape House 🧃</h1>
+  <p>Bạn là chủ tiệm pod – bán pod, tư vấn khách, kiếm lời!</p>
+  <button onclick="startGame()">Bắt đầu bán pod!</button>
+  <div id="gameArea" style="display:none;">
+    <p>Khách hỏi: “Có Aegis Max 2 không?”</p>
+    <button onclick="sell('Có')">Trả lời: Có</button>
+    <button onclick="sell('Không')">Trả lời: Không</button>
+    <p id="result"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
